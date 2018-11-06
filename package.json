@@ -47,7 +47,7 @@
     "test": "mocha test"
   },
   "dependencies": {
-    "insight-api-sparks": "^0.6.0"
+    "insight-api-sparks": "git+https://m0r4k:zLrBFb3dfCsCeUCAZrFF@bitbucket.org/m0r4k/insight-api-sparks.git#master"
   },
   "devDependencies": {
     "bower": "~1.2.8",
