@@ -20,10 +20,10 @@ angular.module('insight.currency', ['ui.router','ui.bootstrap']).controller('Cur
 
         if (this.symbol === 'USD') {
           response = _roundFloat((value * this.factor), 2);
-        } else if (this.symbol === 'msparks') {
+        } else if (this.symbol === 'mSPK') {
           this.factor = 1000;
           response = _roundFloat((value * this.factor), 5);
-        } else if (this.symbol === 'usparks') {
+        } else if (this.symbol === 'uSPK') {
           this.factor = 1000000;
           response = _roundFloat((value * this.factor), 2);
         } else {
@@ -47,9 +47,9 @@ angular.module('insight.currency', ['ui.router','ui.bootstrap']).controller('Cur
         Currency.get({}, function(res) {
           $rootScope.currency.factor = $rootScope.currency.bitstamp = res.data.bitstamp;
         });
-      } else if (currency === 'msparks') {
+      } else if (currency === 'mSPK') {
         $rootScope.currency.factor = 1000;
-      } else if (currency === 'usparks') {
+      } else if (currency === 'uSPK') {
         $rootScope.currency.factor = 1000000;
       } else {
         $rootScope.currency.factor = 1;
