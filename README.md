@@ -1,29 +1,29 @@
 # Insight UI
 
-A Dash blockchain explorer web application service for [Dashcore Node](https://github.com/dashevo/dashcore-node) using [Insight API](https://github.com/dashevo/insight-api).
+A sparks blockchain explorer web application service for [sparkscore Node](https://github.com/sparksevo/sparkscore-node) using [Insight API](https://github.com/sparksevo/insight-api-sparks).
 
 ## Quick Start
 
-Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io/guides/full-node) for information about getting a block explorer running. This is only the front-end component of the block explorer, and is packaged together with all of the necessary components in [Dashcore](https://github.com/dashevo/dashcore).
+Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io/guides/full-node) for information about getting a block explorer running. This is only the front-end component of the block explorer, and is packaged together with all of the necessary components in [sparkscore](https://github.com/sparksevo/sparkscore).
 
 ## Getting Started
 
 To manually install all of the necessary components, you can run these commands:
 
 ```bash
-npm install -g dashcore-node
-dashcore-node create mynode
+npm install -g sparkscore-node
+sparkscore-node create mynode
 cd mynode
-dashcore-node install @dashcore/insight-api
-dashcore-node install @dashcore/insight-ui
-dashcore-node start
+sparkscore-node install @sparkscore/insight-api-sparks
+sparkscore-node install @sparkscore/insight-ui-sparks
+sparkscore-node start
 ```
 
 Open a web browser to `http://localhost:3001/insight/`
 
 ## Development
 
-To run Insight UI Dash locally in development mode:
+To run Insight UI sparks locally in development mode:
 
 Install bower dependencies:
 
@@ -45,7 +45,7 @@ $ grunt
 
 ## Multilanguage support
 
-Insight UI Dash uses [angular-gettext](http://angular-gettext.rocketeer.be) for multilanguage support.
+Insight UI sparks uses [angular-gettext](http://angular-gettext.rocketeer.be) for multilanguage support.
 
 To enable a text to be translated, add the ***translate*** directive to html tags. See more details [here](http://angular-gettext.rocketeer.be/dev-guide/annotate/). Then, run:
 
@@ -70,11 +70,11 @@ compile***.
 
 ## Note
 
-For more details about the [Insight API](https://github.com/dashevo/insight-api) configuration and end-points, go to [Insight API GitHub repository](https://github.com/dashevo/insight-api).
+For more details about the [Insight API](https://github.com/sparksevo/insight-api-sparks) configuration and end-points, go to [Insight API GitHub repository](https://github.com/sparksevo/insight-api-sparks).
 
 ## Contribute
 
-Contributions and suggestions are welcomed at the [Insight UI Dash GitHub repository](https://github.com/dashevo/insight-ui).
+Contributions and suggestions are welcomed at the [Insight UI sparks GitHub repository](https://github.com/sparksevo/insight-ui-sparks).
 
 
 ## License
