@@ -18,7 +18,7 @@ var InsightUI = function(options) {
   }
 };
 
-InsightUI.dependencies = ['@sparksevo/insight-api-sparks'];
+InsightUI.dependencies = ['@sparksevo/insight-api'];
 
 inherits(InsightUI, BaseService);
 
