@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 /* Styling for the ngProgress itself */
 #ngProgress {
-  background-color: #295b85 !important;
+  background-color: #B12626 !important;
   box-shadow: none !important;
   color: #373D42 !important;
   height: 3px !important;
@@ -116,20 +116,26 @@ margin-left: 0;
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: #373D42;}
 
 .navbar-default {
-  background-color: #012060;
+  background-color: #B12626;
   margin: 0;
   border: 0;
 }
 
+.progress-bar {
+  background-color: #90d192 !important;
+}
+
+.progress-bar-info { background-color: #e40057; }
+
 .navbar-default .navbar-nav>li>a {
-  color: #cfe3f4;
+  color: #ffcccc; /* #cfe3f4 */
   font-family: 'Montserrat', sans-serif;
   padding-left: 20px;
   padding-right: 20px;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus {
-  background-color: #295b85;   /*1d71b8*/
+  background-color: #B12626;   /*1d71b8*/
   color: #fff;
 }
 
@@ -167,7 +173,7 @@ margin-left: 0;
 }
 
 .navbar-form .form-control {
-  background-color: #012060;
+  background-color: #B12626;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -202,14 +208,14 @@ margin-left: 0;
 #search { color: #fff; }
 
 #search::-webkit-input-placeholder {
-  color: #CFE3F4;
+  color: #ffcccc; /* #cfe3f4 */
   font-family: 'Montserrat', sans-serif;
   font-style: italic;
   font-weight: 100;
 }
 
 #search::-moz-placeholder {
-  color: #CFE3F4;
+  color: #ffcccc; /* #cfe3f4 */
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
 }
@@ -270,7 +276,7 @@ margin-left: 0;
 }
 
 .block-id {
-  background-color: #012060;
+  background-color: #B12626;
   border: 3px solid #FFFFFF;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -378,7 +384,7 @@ margin-left: 0;
 }
 
 .txvalues-success {
-  background-color: #01215f;
+  background-color: #5f0101;
 }
 
 .txvalues-danger {
@@ -392,7 +398,7 @@ margin-left: 0;
   font-size: 14px;
   font-weight: normal;
 }
-.progress-bar-info { background-color: #008de4; }
+
 
 /* Set the fixed height of the footer here */
 #footer {
@@ -412,8 +418,8 @@ margin-left: 0;
   color: #fffffe;
 }
 
-#footer a.insight small { 
-  font-size: 11px; 
+#footer a.insight small {
+  font-size: 11px;
   margin-right: 2px;
 }
 
@@ -678,7 +684,7 @@ margin-left: 0;
 }
 
 a.v_highlight_more {
-  background-color: #cfe3f4;
+  background-color: #ffcccc; /* #cfe3f4 */
   color: #333;
 }
 
@@ -866,7 +872,7 @@ a.v_highlight_more {
   min-width: 100%;
 }
 
-/* Dash rebrand, 2018-05-28 */
+/* Sparks rebrand, 2018-05-28 */
 a {
   color: #008de4;
 }
@@ -909,6 +915,6 @@ fieldset[disabled] .btn-info:hover {
 }
 
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:active {
-    color: #cfe3f4;
+    color: #ffcccc; /* #cfe3f4 */
     background-color: transparent;
 }
