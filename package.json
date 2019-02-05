@@ -38,12 +38,12 @@
     "insight",
     "blockchain",
     "blockexplorer",
-    "dash",
-    "bitcore-dash",
+    "sparks",
+    "bitcore-sparks",
     "front-end",
-    "dashcore"
+    "sparkscore"
   ],
-  "dashcoreNode": "dashcore-node",
+  "sparkscoreNode": "sparkscore-node",
   "scripts": {
     "build": "bower install && grunt compile",
     "watch": "grunt",
