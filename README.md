@@ -1,10 +1,10 @@
 # Insight UI
 
-A Sparks blockchain explorer web application service for [Dashcore Node](https://github.com/sparksevo/sparkscore-node) using [Insight API](https://github.com/sparksevo/insight-api).
+A Sparks blockchain explorer web application service for [Dashcore Node](https://github.com/m0r4k/sparkscore-node) using [Insight API](https://github.com/m0r4k/insight-api).
 
 ## Quick Start
 
-Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io/guides/full-node) for information about getting a block explorer running. This is only the front-end component of the block explorer, and is packaged together with all of the necessary components in [Dashcore](https://github.com/sparksevo/sparkscore).
+Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io/guides/full-node) for information about getting a block explorer running. This is only the front-end component of the block explorer, and is packaged together with all of the necessary components in [Dashcore](https://github.com/m0r4k/sparkscore).
 
 ## Getting Started
 
@@ -70,11 +70,11 @@ compile***.
 
 ## Note
 
-For more details about the [Insight API](https://github.com/sparksevo/insight-api) configuration and end-points, go to [Insight API GitHub repository](https://github.com/sparksevo/insight-api).
+For more details about the [Insight API](https://github.com/m0r4k/insight-api) configuration and end-points, go to [Insight API GitHub repository](https://github.com/m0r4k/insight-api).
 
 ## Contribute
 
-Contributions and suggestions are welcomed at the [Insight UI Sparks GitHub repository](https://github.com/sparksevo/insight-ui).
+Contributions and suggestions are welcomed at the [Insight UI Sparks GitHub repository](https://github.com/m0r4k/insight-ui).
 
 
 ## License
