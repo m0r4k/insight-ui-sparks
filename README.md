@@ -14,8 +14,8 @@ To manually install all of the necessary components, you can run these commands:
 npm install -g sparkscore-node
 sparkscore-node create mynode
 cd mynode
-sparkscore-node install @sparksevo/insight-api
-sparkscore-node install @sparksevo/insight-ui
+sparkscore-node install insight-api
+sparkscore-node install insight-ui
 sparkscore-node start
 ```
 

@@ -1,5 +1,5 @@
 {
-  "name": "@sparksevo/insight-ui-sparks",
+  "name": "insight-ui-sparks",
   "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the Dash network and build your own services with it.",
   "version": "2.0.0",
   "repository": "git://github.com/sparkspay/insight-ui-sparks.git",
